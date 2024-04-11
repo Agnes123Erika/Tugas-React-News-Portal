@@ -1,0 +1,45 @@
+.header {
+    color: #214971;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.btn-light-blue {
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 74, 118);
+    border-color: rgb(49, 74, 118);
+}
+
+.btn-light-blue:hover {
+    color: #d0d0d0;
+    background-color: rgb(43, 53, 67);
+    border-color: rgb(39, 46, 57);
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #1e51a9;
+    border-color: #10326b;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #10326b;
+    border-color: #10326b;
+}
+  
+
+.loading-bar {
+    width: 100%;
+    background-color: blue;
+    height: 10px;
+    animation: load 2s linear infinite;
+    margin: auto;
+    border: 1px solid;
+}
+  
+@keyframes load {
+    from { width: 0; }
+    to { width: 100%; }
+}
+  

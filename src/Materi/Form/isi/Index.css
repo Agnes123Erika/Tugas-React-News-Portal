@@ -1,0 +1,81 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6; 
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    width: 50%; 
+    min-width: 300px; 
+    max-width: 500px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 4px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 48%;
+}
+  
+form div {
+    width: 100%; 
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    display: block;
+    width: 92%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #686868; 
+    border-radius: 4px; 
+    font-size: 16px; 
+}
+  
+button {
+    padding: 10px;
+    background-color: rgb(93, 93, 198);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+    width: 100%; 
+    margin-top: 10px; 
+    border-radius: 4px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px; 
+    margin-top: -5px;
+    margin-bottom: 10px; 
+}
+
+.input-error {
+    border: 1px solid red; 
+}
+  
