@@ -51,8 +51,6 @@ class NewsList extends Component {
                 ) : (
                     <div className="row">
                         {articles.map((article, index) => (
-                            // Wrap each NewsCard in a column div that spans 4 out of 12 columns
-                            // Ensuring 3 NewsCards are displayed per row
                             <div key={index} className="col-sm-12 col-md-4 mb-4">
                                 <NewsCard article={article} />
                             </div>
